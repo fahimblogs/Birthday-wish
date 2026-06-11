@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Happy Birthday, Eshita! 🎉 | From Priti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="overflow-x-hidden" id="mainBody">
+    <!-- LOADING INTRO SCREEN -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-birthday-text">
+                <h1 class="loading-title">🎉</h1>
+                <p class="loading-wish">Loading your birthday wishes...</p>
+                <div class="loading-dots">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="loading-progress-bar">
+                <div class="loading-progress-fill"></div>
+            </div>
+            <p class="loading-hint">A special gift for Eshita 💝</p>
+        </div>
+        <!-- Floating elements during loading -->
+        <div class="loading-floats">
+            <div class="loading-float">🎈</div>
+            <div class="loading-float">🎂</div>
+            <div class="loading-float">💝</div>
+            <div class="loading-float">✨</div>
+            <div class="loading-float">🎀</div>
+        </div>
+    </div>
+
+    <!-- Background Decorative Elements with Glassmorphism -->
+    <div class="fixed inset-0 pointer-events-none overflow-hidden" id="bgDecorations">
+        <!-- Animated Blobs -->
+        <div class="absolute top-0 left-0 w-72 h-72 sm:w-96 sm:h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+        <div class="absolute top-0 right-0 w-72 h-72 sm:w-96 sm:h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2s"></div>
+        <div class="absolute -bottom-8 left-20 w-72 h-72 sm:w-96 sm:h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4s"></div>
+        <div class="absolute bottom-32 right-10 w-80 h-80 bg-rose-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-3s"></div>
+        
+        <!-- Glass effects -->
+        <div class="absolute top-1/4 left-1/3 w-32 h-32 bg-white/10 rounded-full filter blur-2xl opacity-30 animate-float"></div>
+        <div class="absolute bottom-1/3 right-1/4 w-40 h-40 bg-white/5 rounded-full filter blur-3xl opacity-20 animate-float animation-delay-3s"></div>
+    </div>
+
+    <div class="relative z-10">
+        <!-- Floating Decorations with improved responsive spacing -->
+        <div class="fixed inset-0 pointer-events-none overflow-hidden" id="floatingDecorations">
+            <div class="floating-heart" style="left: 5%; top: 20%;">❤️</div>
+            <div class="floating-heart" style="left: 8%; top: 60%; animation-delay: 2s;">💗</div>
+            <div class="floating-heart" style="right: 5%; top: 30%; animation-delay: 4s;">✨</div>
+            <div class="floating-heart" style="right: 8%; top: 70%; animation-delay: 3s;">⭐</div>
+            <div class="floating-heart" style="left: 50%; top: 80%; animation-delay: 5s;">🎂</div>
+            <div class="floating-heart" style="left: 75%; top: 25%; animation-delay: 1s;">🎈</div>
+        </div>
+
+        <!-- Hero Section with Enhanced Animations -->
+        <section class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-8 sm:py-12 relative overflow-hidden">
+            <div class="absolute inset-0 pointer-events-none">
+                <div class="absolute top-10 left-10 w-16 h-16 sm:w-20 sm:h-20 bg-pink-300 rounded-full opacity-10 blur-2xl animate-pulse"></div>
+                <div class="absolute bottom-10 right-10 w-24 h-24 sm:w-32 sm:h-32 bg-purple-300 rounded-full opacity-10 blur-2xl animate-pulse animation-delay-2s"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto text-center fade-in-up">
+                <!-- Animated Birthday Title -->
+                <div class="mb-6 sm:mb-8">
+                    <h1 class="text-3xl sm:text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-rose-500 bg-clip-text text-transparent mb-2 sm:mb-4 animate-pulse-gentle text-glow">
+                        🎉 Happy Birthday 🎉
+                    </h1>
+                    <h2 class="text-2xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-4 sm:mb-6 tracking-wide animate-slide-in-down">
+                        <span class="font-script text-pink-600 inline-block">Nasrin Jahan Eshita</span>
+                    </h2>
+                </div>
+
+                <!-- Subtitle with typing effect -->
+                <div class="mb-8 sm:mb-12 space-y-3 sm:space-y-4">
+                    <p class="text-base sm:text-lg md:text-xl text-gray-700 font-light leading-relaxed max-w-2xl mx-auto animate-fade-in-text">
+                        <span class="text-pink-600 font-semibold">Dear Eshita,</span><br><br>
+                        Today we celebrate you – the girl who made childhood unforgettable, the friend whose memories I carry with me always.
+                    </p>
+                </div>
+
+                <!-- Scroll Indicator -->
+                <div class="animate-bounce text-2xl sm:text-3xl mt-8 sm:mt-12">
+                    <span class="text-yellow-400 inline-block">⬇️</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Showcase Section with Glassmorphism -->
+        <section class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-12 sm:py-20 relative">
+            <div class="max-w-2xl mx-auto w-full fade-in-up">
+                <div class="text-center mb-8 sm:mb-12">
+                    <h2 class="text-2xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-2 sm:mb-4 animate-slide-in-left">
+                        <span class="text-pink-600 font-script text-3xl sm:text-5xl inline-block">Our Beautiful Star</span>
+                    </h2>
+                    <p class="text-gray-600 text-base sm:text-lg animate-fade-in-text">The person who makes every moment special</p>
+                </div>
+
+                <!-- Photo Frame with Glass Effect -->
+                <div class="photo-card-container">
+                    <div class="photo-card">
+                        <div class="photo-frame glass-effect">
+                            <img src="eshita.jpg" alt="Nasrin Jahan Eshita" class="w-full h-full object-cover rounded-2xl">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Photo Caption -->
+                <div class="text-center mt-6 sm:mt-8">
+                    <p class="text-lg sm:text-xl text-gray-700 font-light italic animate-fade-in-text">
+                        A glimpse of the one we celebrate today
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heartfelt Message Section with Glass Effects -->
+        <section class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-12 sm:py-20 relative">
+            <div class="max-w-3xl mx-auto fade-in-up w-full">
+                <div class="text-center mb-8 sm:mb-12">
+                    <h2 class="text-2xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-2 sm:mb-4 animate-slide-in-down">
+                        <span class="text-purple-600 font-script text-3xl sm:text-5xl">A Message from Your Heart</span>
+                    </h2>
+                </div>
+
+                <!-- Message Box with Glassmorphism -->
+                <div class="message-box glass-effect">
+                    <div class="message-content">
+                        <p class="text-base sm:text-lg md:text-xl text-gray-800 leading-relaxed mb-4 sm:mb-6 font-light animate-fade-in-text">
+                            Eshita,
+                        </p>
+                        <p class="text-base sm:text-lg md:text-xl text-gray-800 leading-relaxed mb-4 sm:mb-6 font-light animate-fade-in-text">
+                            You are stronger than you can imagine and softer than me. No matter what you think about our bond i still think you as my own sister. I love you since i am in class 2. And i will be. Noone can take your part from my heart and soul. You went through a lot, but look you are still alive. You are brave and you actually are my moon.
+                        <p class="text-base sm:text-lg text-pink-600 font-semibold"> Your Most Close One</p>
+                        <br> 
+                        <p class="text-lg sm:text-xl text-purple-600 font-bold">Priti</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section with Glass Effects -->
+        <section class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-12 sm:py-20 relative">
+            <div class="max-w-4xl mx-auto w-full fade-in-up">
+                <div class="text-center mb-10 sm:mb-16">
+                    <h2 class="text-2xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-2 sm:mb-4 animate-slide-in-down">
+                        <span class="text-rose-600 font-script text-3xl sm:text-5xl">Our Timeline</span>
+                    </h2>
+                    <p class="text-gray-600 text-base sm:text-lg">A journey through memories that define us</p>
+                </div>
+
+                <!-- Timeline -->
+                <div class="timeline">
+                    <!-- Year 1 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-marker">
+                            <span class="text-xl sm:text-2xl">🎒</span>
+                        </div>
+                        <div class="timeline-content left glass-effect">
+                            <h3 class="text-xl sm:text-2xl font-semibold text-pink-600 mb-2">Class 2</h3>
+                            <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+                                Where it all began. Two curious souls sitting next to each other, creating memories that would last a lifetime. Our friendship was born in innocent laughter and playground adventures.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Year 2 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-marker">
+                            <span class="text-xl sm:text-2xl">📚</span>
+                        </div>
+                        <div class="timeline-content right glass-effect">
+                            <h3 class="text-xl sm:text-2xl font-semibold text-purple-600 mb-2">Childhood Adventures</h3>
+                            <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+                                We used to go for a long walk, and gossiping, silly things, lots of fast food, we used to fight with boys. I used to  wait in your house for you before our coaching
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Year 3 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-marker">
+                            <span class="text-xl sm:text-2xl">✈️</span>
+                        </div>
+                        <div class="timeline-content left glass-effect">
+                            <h3 class="text-xl sm:text-2xl font-semibold text-rose-600 mb-2">Life's Distance</h3>
+                            <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+                                Different paths. New cities. Growing up meant growing apart. The closeness faded, conversations became less frequent, but the love never diminished. Just changed its form.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Year 4 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-marker">
+                            <span class="text-xl sm:text-2xl">💫</span>
+                        </div>
+                        <div class="timeline-content right glass-effect">
+                            <h3 class="text-xl sm:text-2xl font-semibold text-indigo-600 mb-2">The Unbreakable Bond</h3>
+                            <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+                                Distance proved to be nothing. Years passed, but somewhere deep inside, we remained connected. The memories became our bridge, and love transcended time and space.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Year 5 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-marker">
+                            <span class="text-xl sm:text-2xl">🎂</span>
+                        </div>
+                        <div class="timeline-content left glass-effect">
+                            <h3 class="text-xl sm:text-2xl font-semibold text-pink-600 mb-2">Today – Your Special Day</h3>
+                            <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+                                We celebrate you and everything you are. Not just the girl I grew up with, but the woman you've become. Every memory, every moment, every connection – all precious beyond measure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Celebration Section with Glass Effects -->
+        <section class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-12 sm:py-20 relative overflow-hidden">
+            <div class="max-w-4xl mx-auto w-full text-center fade-in-up">
+                <h2 class="text-2xl sm:text-4xl md:text-5xl font-light text-gray-800 mb-8 sm:mb-12 animate-pulse-gentle">
+                    <span class="text-purple-600 font-script text-3xl sm:text-5xl">Let's Celebrate YOU!</span>
+                </h2>
+
+                <!-- Celebration Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 mb-8 sm:mb-12">
+                    <!-- Birthday Cake -->
+                    <div class="celebration-card glass-effect">
+                        <div class="text-5xl sm:text-6xl mb-3 sm:mb-4 animate-bounce">🎂</div>
+                        <h3 class="text-lg sm:text-2xl font-semibold text-pink-600 mb-2">Birthday Wishes</h3>
+                        <p class="text-sm sm:text-base text-gray-700">May this year bring you endless joy, unforgettable moments, and all the happiness your heart deserves.</p>
+                    </div>
+
+                    <!-- Balloons -->
+                    <div class="celebration-card glass-effect">
+                        <div class="text-5xl sm:text-6xl mb-3 sm:mb-4 animate-float">🎈🎈🎈</div>
+                        <h3 class="text-lg sm:text-2xl font-semibold text-purple-600 mb-2">Dreams & Goals</h3>
+                        <p class="text-sm sm:text-base text-gray-700">May every wish you make come true, and every dream you chase become a beautiful reality.</p>
+                    </div>
+
+                    <!-- Stars -->
+                    <div class="celebration-card glass-effect">
+                        <div class="text-5xl sm:text-6xl mb-3 sm:mb-4 animate-spin-slow">⭐✨🌟</div>
+                        <h3 class="text-lg sm:text-2xl font-semibold text-rose-600 mb-2">Shine Bright</h3>
+                        <p class="text-sm sm:text-base text-gray-700">You are a star, Eshita. Keep shining and lighting up everyone's lives with your presence.</p>
+                    </div>
+                </div>
+
+                <!-- Wishes Message -->
+                <div class="wishes-box glass-effect mb-8 sm:mb-12">
+                    <h3 class="text-lg sm:text-2xl font-semibold text-gray-800 mb-4 sm:mb-6">Special Wishes for You</h3>
+                    <div class="space-y-2 sm:space-y-4 text-base sm:text-lg text-gray-800 leading-relaxed">
+                        <p class="animate-fade-in-text">💝 May your birthday be as beautiful as you are</p>
+                        <p class="animate-fade-in-text">✨ May every moment bring you closer to your dreams</p>
+                        <p class="animate-fade-in-text">🌸 May you be surrounded by love and laughter always</p>
+                        <p class="animate-fade-in-text">💫 May this year be your best chapter yet</p>
+                        <p class="animate-fade-in-text">🎊 May you know how incredibly special you are to everyone around you</p>
+                    </div>
+                </div>
+
+                <!-- Confetti Animation Trigger -->
+                <button onclick="celebrateNow()" class="celebrate-btn">
+                    🎉 Let's Celebrate! 🎉
+                </button>
+            </div>
+        </section>
+
+        <!-- Final Message Section with Glass Effects -->
+        <section class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-12 sm:py-20 relative">
+            <div class="max-w-3xl mx-auto text-center fade-in-up w-full">
+                <div class="closing-message glass-effect">
+                    <h2 class="text-2xl sm:text-5xl md:text-6xl font-light text-gray-800 mb-6 sm:mb-8 animate-slide-in-down">
+                        <span class="text-pink-600 font-script text-3xl sm:text-6xl">With All My Love</span>
+                    </h2>
+
+                    <p class="text-lg sm:text-2xl text-gray-700 mb-6 sm:mb-8 leading-relaxed animate-fade-in-text">
+                        Thank you for being my best friend, my confidant, my sister-in-spirit. Thank you for those unforgettable childhood days that shaped who I am. Thank you for never letting distance break what we built together.
+                    </p>
+
+                    <p class="text-lg sm:text-2xl text-gray-700 mb-8 sm:mb-12 leading-relaxed animate-fade-in-text">
+                        On your special day, I want you to feel the warmth of every memory, the strength of every bond, and the depth of every feeling I have for you.
+                    </p>
+
+                    <div class="signature-box glass-effect">
+                        <p class="text-2xl sm:text-4xl font-script text-pink-600 mb-2">Forever yours,</p>
+                        <p class="text-xl sm:text-3xl font-bold text-purple-600">Priti</p>
+                        <p class="text-base sm:text-lg text-gray-600 mt-4">💕 Because some friendships are forever 💕</p>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="mt-8 sm:mt-16 pt-6 sm:pt-8 border-t-2 border-pink-200">
+                    <p class="text-gray-600 text-xs sm:text-sm">
+                        Made with 💖 on June 11, 2026 – Your Birthday
+                    </p>
+                    <p class="text-gray-500 text-xs mt-2">
+                        A special gift for Nasrin Jahan Eshita from your best friend Priti
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Canvas for Confetti -->
+    <canvas id="confetti-canvas" class="fixed inset-0 pointer-events-none"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
